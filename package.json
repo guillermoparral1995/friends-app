@@ -1,0 +1,30 @@
+{
+  "name": "friends",
+  "version": "0.0.1-initial",
+  "description": "Like Tinder for finding friends with similar interests",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"No tests yet!\"",
+    "watch": "webpack --watch",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "friends",
+    "vue",
+    "node",
+    "javascript"
+  ],
+  "author": "Guillermo Parral",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
